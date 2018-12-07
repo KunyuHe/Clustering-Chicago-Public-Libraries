@@ -21,7 +21,7 @@ Information of the public libraries is provided by [Chicago Public Library](http
 | TEACHER IN THE LIBRARY        | Whether there is a library teacher                    | string           |
 | ADDRESS, CITY, STATE, ZIP     | Address,city, state and zip code of the library       | string           |
 | PHONE, WEBSITE                | Phone and website of the library                      | string           |
-| LOCATION                      | Library geographical coordinates                      | tuple of float   |
+| LOCATION                      | Library geographical coordinates                      | string   |
 
 Information of the top venues near to (within a range of 500 meters) the public libraries is acquired from [FourSquare API](https://developer.foursquare.com/). You can explore the surroundings of any geographical coordinates of interest with a developer account. Variables include:
 
