@@ -13,18 +13,21 @@ In this project, I clustered 80 public libraries in the city of Chicago with NMF
 
 Information of the public libraries is provided by [Chicago Public Library](https://www.chipublib.org/). You can access the data [here](https://data.cityofchicago.org/Education/Libraries-Locations-Hours-and-Contact-Information/x8fc-8rcq). Variables includes:
 
-|Variable              | Definitions                        |
-|:--------------------:|------------------------------------|
-|NAME                  | Library name                       |
-* Library hours of operation;
-* Whether there are any cyber navigators in the library;
-* Whether there is a library teacher;
-* Address,city, state and zip code of the library;
-* Phone and website of the library;
-* Library geographical coordinates
+|Variable                       | Definitions                                           | Python Data Type |
+|:-----------------------------:|-------------------------------------------------------|-----------------:|
+| NAME                          | Library name                                          | string           |
+| HOURS OF OPERATION            | Library hours of operation                            | string           |
+| CYBERNAVIGATOR                | Whether there are any cyber navigators in the library | string           |
+| TEACHER IN THE LIBRARY        | Whether there is a library teacher                    | string           |
+| ADDRESS, CITY, STATE, ZIP     | Address,city, state and zip code of the library       | string           |
+| PHONE, WEBSITE                | Phone and website of the library                      | string           |
+| LOCATION                      | Library geographical coordinates                      | tuple of float   |
 
 Information of the top venues near to (within a range of 500 meters) the public libraries is acquired from [FourSquare API](https://developer.foursquare.com/). You can explore the surroundings of any geographical coordinates of interest with a developer account. Variables include:
 
-* Venue name;
-* Venue geographical coordinates;
-* Venue category
+|Variable                       | Definitions                                           | Python Data Type |
+|:-----------------------------:|-------------------------------------------------------|-----------------:|
+| Venue                         | Venue name                                            | string           |
+| Venue Latitude                | Latitude of the venue                                 | float            |
+| Venue Longitude               | Longitude of the venue                                | float            |
+| Venue Category                | Category of the venue                                 | string           |
