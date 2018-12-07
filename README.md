@@ -1,6 +1,7 @@
 # Clustering Chicago Public Libraries
 
 *Author: Kunyu He*
+
 *University of Chicago CAPP'20*
 
 ## Executive Summary
