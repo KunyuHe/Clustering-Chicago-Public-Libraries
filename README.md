@@ -2,7 +2,9 @@
 
 *Author: Kunyu He*
 
-*University of Chicago CAPP'20*
+*University of Chicago* 
+
+*CAPP'20*
 
 ## Executive Summary
 
