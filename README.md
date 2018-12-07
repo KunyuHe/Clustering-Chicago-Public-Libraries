@@ -14,7 +14,7 @@ In this project, I clustered 80 public libraries in the city of Chicago with NMF
 Information of the public libraries is provided by [Chicago Public Library](https://www.chipublib.org/). You can access the data [here](https://data.cityofchicago.org/Education/Libraries-Locations-Hours-and-Contact-Information/x8fc-8rcq). Variables includes:
 
 |Variable                       | Definitions                                           | Python Data Type |
-|:-----------------------------:|-------------------------------------------------------|-----------------:|
+|-------------------------------|-------------------------------------------------------|-----------------:|
 | NAME                          | Library name                                          | string           |
 | HOURS OF OPERATION            | Library hours of operation                            | string           |
 | CYBERNAVIGATOR                | Whether there are any cyber navigators in the library | string           |
@@ -26,7 +26,7 @@ Information of the public libraries is provided by [Chicago Public Library](http
 Information of the top venues near to (within a range of 500 meters) the public libraries is acquired from [FourSquare API](https://developer.foursquare.com/). You can explore the surroundings of any geographical coordinates of interest with a developer account. Variables include:
 
 |Variable                       | Definitions                                           | Python Data Type |
-|:-----------------------------:|-------------------------------------------------------|-----------------:|
+|-------------------------------|-------------------------------------------------------|-----------------:|
 | Venue                         | Venue name                                            | string           |
 | Venue Latitude                | Latitude of the venue                                 | float            |
 | Venue Longitude               | Longitude of the venue                                | float            |
