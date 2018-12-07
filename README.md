@@ -2,9 +2,7 @@
 
 *Author: Kunyu He*
 
-*University of Chicago* 
-
-*CAPP'20*
+*University of Chicago CAPP'20*
 
 ## Introduction
 
@@ -15,7 +13,9 @@ In this project, I clustered 80 public libraries in the city of Chicago with NMF
 
 Information of the public libraries is provided by [Chicago Public Library](https://www.chipublib.org/). You can access the data [here](https://data.cityofchicago.org/Education/Libraries-Locations-Hours-and-Contact-Information/x8fc-8rcq). Variables includes:
 
-* Library name;
+|Variable              | Definitions                        |
+|:--------------------:|------------------------------------|
+|NAME                  | Library name                       |
 * Library hours of operation;
 * Whether there are any cyber navigators in the library;
 * Whether there is a library teacher;
