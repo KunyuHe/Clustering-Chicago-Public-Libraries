@@ -6,6 +6,25 @@
 
 *CAPP'20*
 
-## Executive Summary
+## Introduction
 
-In this project, I clustered 80 public libraries in the city of Chicago with NMF, based on the categories of their top five venues nearby. It would be a nice guide for those who would like to spend their days in these libraries, exploring their surroundings, but become tired of staying in only one or few of them over time. Check a map of these clustered libraries in the last section and pick up those surrounded by your favorite category of venues, pay them a visit during their hours of operation!
+In this project, I clustered 80 public libraries in the city of Chicago with NMF, based on the categories of their top five venues nearby. It would be a nice guide for those who would like to spend their days in these libraries, exploring their surroundings, but become tired of staying in only one or few of them over time. Check [this notebook]() to find these clustered libraries and pick up those surrounded by your favorite category of venues, pay them a visit during their hours of operation!
+
+
+## Data
+
+Information of the public libraries is provided by [Chicago Public Library](https://www.chipublib.org/). You can access the data [here](https://data.cityofchicago.org/Education/Libraries-Locations-Hours-and-Contact-Information/x8fc-8rcq). Variables includes:
+
+* Library name;
+* Library hours of operation;
+* Whether there are any cyber navigators in the library;
+* Whether there is a library teacher;
+* Address,city, state and zip code of the library;
+* Phone and website of the library;
+* Library geographical coordinates
+
+Information of the top venues near to (within a range of 500 meters) the public libraries is acquired from [FourSquare API](https://developer.foursquare.com/). You can explore the surroundings of any geographical coordinates of interest with a developer account. Variables include:
+
+* Venue name;
+* Venue geographical coordinates;
+* Venue category
