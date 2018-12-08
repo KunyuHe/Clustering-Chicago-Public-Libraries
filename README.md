@@ -32,4 +32,4 @@ Information of the top venues near to (within a range of 500 meters) the public 
 | Venue Longitude               | Longitude of the venue                                | float            |
 | Venue Category                | Category of the venue                                 | string           |
 
-![title](https://www.dropbox.com/s/kbnemvklchb5o9s/folium_map.png?dl=0)
+![title](https://github.com/KunyuHe/Clustering-Chicago-Public-Libraries/blob/master/folium_map.png)
