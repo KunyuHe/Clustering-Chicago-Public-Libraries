@@ -6,7 +6,13 @@
 
 ## Introduction
 
-In this project, I clustered 80 public libraries in the city of Chicago with NMF, based on the categories of their top five venues nearby. It would be a nice guide for those who would like to spend their days in these libraries, exploring their surroundings, but become tired of staying in only one or few of them over time. Check [this notebook]() to find these clustered libraries and pick up those surrounded by your favorite category of venues, pay them a visit during their hours of operation!
+In this notebook, I clustered 80 public libraries in the city of Chicago into 7 clusters, based on the categories of their top ten venues nearby. It would be a nice guide for those who would like to spend their days in these libraries, exploring their surroundings, but become tired of staying in only one or few of them over time.
+
+Below is a screenshot of the resulting folium map:
+
+![title](https://github.com/KunyuHe/Clustering-Chicago-Public-Libraries/blob/master/folium_map.png)
+
+Check [this notebook](https://github.com/KunyuHe/Clustering-Chicago-Public-Libraries/blob/master/Clustering%20Chicago%20Public%20Libraries.ipynb) to find these clustered libraries and pick up those surrounded by your favorite category of venues, pay them a visit during their hours of operation!
 
 
 ## Data
@@ -31,5 +37,3 @@ Information of the top venues near to (within a range of 500 meters) the public 
 | Venue Latitude                | Latitude of the venue                                 | float            |
 | Venue Longitude               | Longitude of the venue                                | float            |
 | Venue Category                | Category of the venue                                 | string           |
-
-![title](https://github.com/KunyuHe/Clustering-Chicago-Public-Libraries/blob/master/folium_map.png)
