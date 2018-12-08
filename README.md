@@ -31,3 +31,5 @@ Information of the top venues near to (within a range of 500 meters) the public 
 | Venue Latitude                | Latitude of the venue                                 | float            |
 | Venue Longitude               | Longitude of the venue                                | float            |
 | Venue Category                | Category of the venue                                 | string           |
+
+![title](https://www.dropbox.com/s/kbnemvklchb5o9s/folium_map.png?dl=0)
