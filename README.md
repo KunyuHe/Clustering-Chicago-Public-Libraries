@@ -48,3 +48,16 @@ The clustering algorithms used include:
 * [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering) with [Ward's Method](https://en.wikipedia.org/wiki/Ward%27s_method).
 
 PCA with TSVD is used for reducing the dimension of our feature matrix, which is a [sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix). KMeans and hierarchical clusering are applied to cluster the libraries in terms of their top ten nearby venue categories and the final labels are derived from hierarchical clustering with ward distance.
+
+
+## Discussions
+
+There might be several caveats in my analysis:
+
+* Libraries are clustered merely according to categories of their surrounding venues. Other characteristics are left out from my considseration;
+* We can see that the resulting venues are not unique, i.e. not every public library has ten distinct venues. This might results from the fact that venues share same names in some cases, or nearby areas of these libraries overlap.
+
+Future improvements might include:
+
+* Include hyperlinks to venue photos and tips to make it easier for users to check up in advance;
+* Use better algorithms to cluster the libraries.
