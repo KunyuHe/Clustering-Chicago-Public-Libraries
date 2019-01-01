@@ -4,7 +4,7 @@
 
 *University of Chicago CAPP'20*
 
-## Introduction
+## Executive Summary:
 
 In this notebook, I clustered 80 public libraries in the city of Chicago into 7 clusters, based on the categories of their top ten venues nearby. It would be a nice guide for those who would like to spend their days in these libraries, exploring their surroundings, but become tired of staying in only one or few of them over time.
 
@@ -37,3 +37,14 @@ Information of the top venues near to (within a range of 500 meters) the public 
 | Venue Latitude                | Latitude of the venue                                 | float            |
 | Venue Longitude               | Longitude of the venue                                | float            |
 | Venue Category                | Category of the venue                                 | string           |
+
+
+## Methodology
+
+The clustering algorithms used include:
+
+* [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) with [Truncated SVD](http://infolab.stanford.edu/pub/cstr/reports/na/m/86/36/NA-M-86-36.pdf);
+* [KMeans Clustering](https://en.wikipedia.org/wiki/K-means_clustering);
+* [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering) with [Ward's Method](https://en.wikipedia.org/wiki/Ward%27s_method).
+
+PCA with TSVD is used for reducing the dimension of our feature matrix, which is a [sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix). KMeans and hierarchical clusering are applied to cluster the libraries in terms of their top ten nearby venue categories and the final labels are derived from hierarchical clustering with ward distance.
